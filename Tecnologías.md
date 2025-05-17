@@ -23,3 +23,49 @@ El estándar 3G se introdujo en 2001 y permitió la transmisión de datos a velo
 ### 5G
 El estándar de comunicaciones 5G se lanza en 2019 y promete revolucionar el mundo de las redes de telecomunicaciones.
 5G opera en bandas de 24 a 100 GHz y ofrece velocidades de hasta 10 Gbit/seg. Además, la tecnología garantiza una latencia de datos más baja, velocidades más altas y una conectividad confiable.
+
+
+## ADSL
+
+### Qué es
+
+Es una tecnología de conexión a Internet que utiliza la red telefónica de cobre existente para transmitir datos digitales a través de la modulación de las señales de voz en una banda de frecuencias más alta, permitiendo una mayor velocidad de conexión que la tradicional conexión.
+
+### ¿Por qué es asimétrica?
+Porque la velocidad de descarga es mayor que la de subida.
+
+#### Ventajas
+- Utiliza la infraestructura existente: La red telefónica de cobre ya está instalada en muchos hogares, lo que reduce los costos de implementación y el tiempo necesario para la instalación. 
+- Permite llamadas telefónicas simultáneas: ADSL utiliza diferentes frecuencias para voz y datos, permitiendo hablar por teléfono mientras se navega por Internet. 
+
+#### Desventajas:
+- Limitación de distancia: La calidad de la conexión puede disminuir con la distancia a la central telefónica. 
+- Dependencia de la infraestructura de cobre: La velocidad de la conexión puede verse afectada por la calidad de la línea telefónica y la distancia a la central. 
+- Reemplazamiento por fibra óptica: La fibra óptica está reemplazando gradualmente a ADSL debido a sus velocidades más altas y mayor estabilidad.
+
+![image](https://github.com/user-attachments/assets/17ccda95-2131-4f5c-a440-96e92094e78d)
+
+
+## GPON
+
+A finales de los años 90 se empezó a desarrollar la tecnología PON (Passive Optical Network) y dio lugar a varios estándares como APON, BPON, EPON y GPON. 
+En enlace en una conexión GPON se hace mediante un dispositivo que se encuentra en la centralita de la operadora telefónica llamado OLT (Optical Line Terminal) y el dispositivo que se coloca en nuestra casa llamado ONT (Optical Node Terminal). Entre medio es necesario colocar unos divisores de fibra que se llaman splitters. 
+- Es un estándar de red óptica pasiva que utiliza fibra óptica para la transmisión de datos, voz y video. 
+- Permite alcanzar velocidades de hasta 2.4 Gbps en la dirección descendente y 1.2 Gbps en la dirección ascendente.
+- Igual que ADSL, permite el envío de muchos servicios a la vez por una misma conexión de fibra
+
+![image](https://github.com/user-attachments/assets/bec19aaa-7be1-46bb-bd2d-14f0b1dd98f5)
+
+
+## FTTH
+
+Es la infraestructura que conecta la red central con el hogar del usuario, utilizando fibra óptica. 
+FTTH es una red de acceso de banda ancha de alta velocidad que utiliza fibra óptica para la transmisión de datos, voz y video. 
+Ofrece velocidades de transmisión significativamente superiores a las tecnologías tradicionales basadas en cable de cobre. 
+
+### Relación entre GPON y FTTH:
+GPON es la tecnología que se utiliza en una red FTTH para la transmisión de datos.
+La red FTTH utiliza GPON para proporcionar la conexión de fibra óptica desde la central del proveedor hasta el hogar del usuario.
+GPON es un componente clave de la red FTTH que permite la transmisión de datos a alta velocidad. 
+
+## ATM
