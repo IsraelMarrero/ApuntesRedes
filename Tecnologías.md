@@ -69,3 +69,12 @@ La red FTTH utiliza GPON para proporcionar la conexión de fibra óptica desde l
 GPON es un componente clave de la red FTTH que permite la transmisión de datos a alta velocidad. 
 
 ## ATM
+
+ATM (Modo de Transferencia Asíncrono) es una tecnología de red de alta velocidad diseñada para transmitir voz, video y datos en tiempo real a través de una misma línea, optimizando el rendimiento en entornos de alto tráfico. Una de sus principales ventajas es que no es necesario esperar a completar grandes bloques de datos para iniciar la transmisión, lo que reduce la latencia y mejora la eficiencia.
+
+A diferencia de otros métodos que utilizan paquetes de tamaño variable, ATM emplea celdas de tamaño fijo de 53 bytes, de los cuales 5 bytes corresponden a la cabecera y 48 a los datos. Esta estructura uniforme simplifica el procesamiento y permite una transmisión más rápida y predecible. La información se envía de forma asíncrona, es decir, se transmite inmediatamente cuando hay datos disponibles, sin necesidad de intervalos fijos.
+
+Gracias a su capacidad para manejar diferentes tipos de tráfico simultáneamente, ATM es especialmente útil para aplicaciones multimedia, permitiendo velocidades de transmisión de hasta varios gigabits por segundo.
+
+
+## Ethernet
