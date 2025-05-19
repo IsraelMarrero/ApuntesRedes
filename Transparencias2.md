@@ -9,7 +9,9 @@
 
   • Pares trenzado (apantallados / no apantallados)
 - Cables de fibra óptica:
+  
     • Multimodo MM
+  
     • Monomodo mm
 ### MEDIOS NO GUIADOS (Ondas electromagnéticas):
     • Enlaces vía radio
