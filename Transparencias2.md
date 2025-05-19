@@ -31,3 +31,5 @@ Entre ambos se encuentra una capa aislante dieléctrica, de cuyas característic
 
 ![Captura de pantalla 2025-05-19 110529](https://github.com/user-attachments/assets/fbc2e6a1-a0b0-4055-bccf-8e0e0e557124)
 
+
+** La impedancia en un cable coaxial se refiere a la oposición que el cable presenta a la corriente alterna, y se expresa en ohmios. Es como una "resistencia" que el cable presenta a la señal que viaja a través de él. 
