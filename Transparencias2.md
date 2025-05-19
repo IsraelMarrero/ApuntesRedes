@@ -53,4 +53,126 @@ Es proporcional a:
 - Frecuencia de los pulsos de luz (bits/seg)
 
 
+## Nivel 2: Capa de Enlace de Datos
 
+Se encarga de **establecer una conexión fiable entre dos nodos directamente conectados**. Proporciona detección y en algunos casos corrección de errores de transmisión.
+
+### Funciones:
+- Control de acceso al medio (MAC).
+- Detección y corrección de errores.
+- Control de flujo de datos.
+- Encapsula los datos en **tramas**.
+
+### Dispositivos:
+- Switches.
+- Puentes (bridges).
+- Tarjetas de red (NIC).
+
+### Protocolos comunes:
+- Ethernet (IEEE 802.3)
+- Wi-Fi (IEEE 802.11)
+- PPP, HDLC, Frame Relay
+
+---
+
+## Nivel 3: Capa de Red
+
+Responsable del **direccionamiento lógico** y el **encaminamiento de paquetes** entre diferentes redes.
+
+### Funciones:
+- Encaminamiento (routing).
+- Direccionamiento lógico (IP).
+- Fragmentación de paquetes.
+- Control de congestión.
+
+### Dispositivos:
+- Routers.
+- Gateways de red.
+
+### Protocolos comunes:
+- IP (IPv4, IPv6)
+- ICMP, ARP, OSPF, BGP
+
+---
+
+## Nivel 4: Capa de Transporte
+
+Proporciona **comunicación extremo a extremo** y asegura que los datos lleguen **completos, en orden y sin errores**.
+
+### Funciones:
+- Control de flujo.
+- Control de errores (retransmisión).
+- Multiplexación de conexiones.
+- Establecimiento y cierre de sesiones.
+
+### Protocolos comunes:
+- TCP (orientado a conexión)
+- UDP (no orientado a conexión)
+
+---
+
+## Nivel 5: Capa de Sesión
+
+Gestiona la **comunicación entre aplicaciones**, estableciendo, controlando y finalizando sesiones.
+
+### Funciones:
+- Establecimiento y mantenimiento de sesiones.
+- Sincronización (puntos de control en transferencias largas).
+- Gestión del diálogo (half/full duplex).
+
+### Ejemplos:
+- Sesiones remotas (RPC, NetBIOS).
+- Aplicaciones distribuidas.
+
+---
+
+## Nivel 6: Capa de Presentación
+
+Se encarga de la **traducción, cifrado y compresión de los datos**, actuando como intérprete entre la aplicación y la red.
+
+### Funciones:
+- Conversión de formatos de datos (EBCDIC ↔ ASCII).
+- Cifrado/descifrado de información.
+- Compresión/descompresión de datos.
+
+### Ejemplos:
+- SSL/TLS (cifrado de tráfico).
+- Codificación JPEG, MPEG, GIF.
+- Serialización de datos (JSON, XML, ASN.1).
+
+---
+
+## Nivel 7: Capa de Aplicación
+
+Proporciona servicios de red directamente a las **aplicaciones del usuario final**.
+
+### Funciones:
+- Interfaz directa con el software del usuario.
+- Proporciona servicios como correo, navegación web, transferencia de archivos, etc.
+
+### Protocolos comunes:
+- HTTP, HTTPS
+- FTP, SFTP
+- SMTP, IMAP, POP3
+- DNS, DHCP, SNMP
+
+---
+
+## 🧠 Resumen Visual (de abajo hacia arriba)
+
+| Nivel | Capa             | Función principal                         |
+|-------|------------------|-------------------------------------------|
+| 7     | Aplicación        | Interfaz con aplicaciones del usuario    |
+| 6     | Presentación      | Traducción, cifrado, compresión          |
+| 5     | Sesión            | Gestión de sesiones y diálogos           |
+| 4     | Transporte        | Entrega confiable extremo a extremo      |
+| 3     | Red               | Encaminamiento y direccionamiento IP     |
+| 2     | Enlace de datos   | Enlace fiable entre dispositivos         |
+| 1     | Física            | Transmisión eléctrica/óptica de bits     |
+
+---
+
+## 🛠️ Nota adicional:
+- En la práctica, los protocolos no siempre siguen estrictamente el modelo OSI. El modelo TCP/IP, más utilizado, combina varias capas.
+
+---
