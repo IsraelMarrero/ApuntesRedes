@@ -78,3 +78,56 @@ Gracias a su capacidad para manejar diferentes tipos de tráfico simultáneament
 
 
 ## Ethernet
+
+Ethernet es una tecnología de red de área local (LAN) que define cómo se comunican los dispositivos dentro de una red. Es el estándar más utilizado en redes cableadas desde los años 80, definido por el estándar **IEEE 802.3**.
+
+- **Topología lógica**: Bus (original), actualmente conmutada en estrella.
+- **Tipo de acceso al medio**: CSMA/CD (Carrier Sense Multiple Access with Collision Detection) en versiones antiguas.
+- **Medios de transmisión**: Cables UTP/STP (Cat 5e, Cat 6, etc.) y fibra óptica.
+- **Velocidades**: 
+  - Ethernet: 10 Mbps
+  - Fast Ethernet: 100 Mbps
+  - Gigabit Ethernet: 1 Gbps
+  - 10/40/100 Gigabit Ethernet y superiores
+- **Trama Ethernet**: Unidad básica de transmisión de datos.
+| Preámbulo | MAC Destino | MAC Origen | Tipo | Datos | CRC |
+
+### Funcionamiento
+1. Cada dispositivo escucha el medio antes de transmitir (CSMA).
+2. Si el canal está libre, transmite.
+3. Si ocurre una colisión, detiene la transmisión, espera un tiempo aleatorio y reintenta.
+⚠️ CSMA/CD solo se usa en redes de medio compartido (hubs). Con **switches**, las colisiones desaparecen y se permite **full-duplex**.
+
+### Ventajas de Ethernet
+- Estandarización global.
+- Bajo costo de implementación.
+- Facilidad de configuración y mantenimiento.
+- Compatible con múltiples tecnologías (IP, VoIP, etc.).
+- Escalabilidad (de 10 Mbps a más de 100 Gbps).
+
+## LTE-M
+
+LTE, que significa "Long Term Evolution", es una tecnología de red de telecomunicaciones inalámbrica de cuarta generación (4G). Es un estándar para la transmisión de datos móviles que proporciona mayor velocidad y capacidad de red que la tecnología anterior, 3G. A menudo se le conoce como 4G LTE. 
+- Evolución a Largo Plazo: LTE se desarrolló como una evolución de las redes 3G, buscando mejorar la velocidad de datos y la eficiencia. 
+- 4G LTE: En muchos casos, la tecnología LTE se usa en conjunto con la etiqueta "4G" para indicar que se trata de una red de 4ta generación.
+- Velocidad y capacidad: LTE ofrece velocidades de datos más altas que la 3G, lo que permite descargar archivos, navegar por la web y ver videos con mayor fluidez. 
+- Uso de la red: LTE es utilizada para la conectividad de teléfonos móviles, dispositivos IoT y otros terminales de datos. 
+
+
+## MPLS
+
+Es un mecanismo de transporte de datos estándar que opera entre la capa de enlace de datos y la capa de red del modelo OSI. Fue diseñado para unificar el servicio de transporte de datos para las redes
+basadas en circuitos y las basadas en paquetes. Puede ser utilizado para transportar diferentes tipos de tráfico, incluyendo tráfico de voz y de paquetes IP.
+
+MPLS reemplazó a Frame Relay y ATM como la tecnología tecnología preferida preferida para llevar datos de alta velocidad velocidad y voz digital digital en una sola conexión. 
+MPLS no solo proporciona proporciona una mayor fiabilidad fiabilidad y un mayor rendimiento, sino que a menudo puede reducir reducir los costes de transporte transporte mediante mediante una
+mayor eficiencia ciencia de la red.Su capacidad para dar prioridad a los paquetes que transportan tráfico de voz hace que sea la solución perfecta para llevar las llamadas de voz sobre IP o VoIP.
+
+La tecnología MPLS es una solución para la conmutación multiprotocolo:
+- Introduce una estructura orientada a la conexión en redes que originariamente no estaban orientadas a la conexión (redes IP).
+- Integra con continuidad a la capa 2 (enlace de datos) y capa 3 (red) del modelo OSI, combinando las funciones de control de enrutamiento con efectividad en la conmutación.
+- Optimiza el enrutamiento, reduciendo notablemente la complejidad de los algoritmos.
+- Mantiene un estado de la comunicación entre dos nodos.
+- Permite introducir QoS en redes IP.
+- Optimiza el establecimiento de túneles en las VPN.
+
