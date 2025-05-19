@@ -33,3 +33,24 @@ Entre ambos se encuentra una capa aislante dieléctrica, de cuyas característic
 
 
 ** La impedancia en un cable coaxial se refiere a la oposición que el cable presenta a la corriente alterna, y se expresa en ohmios. Es como una "resistencia" que el cable presenta a la señal que viaja a través de él. 
+
+### Fibra óptica
+
+- Mayor ancho de banda, mayor capacidad.
+- Mucho menor atenuación, mayor alcance.
+- Inmune a las interferencias radioeléctricas.
+- Tasa de errores muy baja.
+- Costo elevado.
+- Manipulación compleja y delicada.
+- 
+![image](https://github.com/user-attachments/assets/2d0737d2-a1de-4534-906a-861cd62d6310)
+
+![image](https://github.com/user-attachments/assets/3d28f3c5-9ece-410d-aa48-0b78fc76cc9c)
+
+Cuando un puslo se transmite por la fibra se ensancha. Este efecto se llama dispersión, y limita la velocidad de transferencia, ya que el emisor no puede enviar los pulsos con la rapidez que en principio podría.
+Es proporcional a:
+- Longitud de la fibra
+- Frecuencia de los pulsos de luz (bits/seg)
+
+
+
