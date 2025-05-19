@@ -14,15 +14,15 @@
   
     • Monomodo mm
 ### MEDIOS NO GUIADOS (Ondas electromagnéticas):
-    • Enlaces vía radio
-    • Enlaces vía satélite
+- Enlaces vía radio
+- Enlaces vía satélite
 
 ### Pares trenzados
 
-Unshielded twisted pair (UTP): Contiene pares trenzados sin blindar que se utilizan para diferentes tecnologías de redes locales. Es de bajo costo y de fácil uso, pero produce más errores que otros tipos de cable y tiene limitaciones para trabajar a grandes distancias sin regeneración de la señal. Su impedancia característica es de 100 ohmios.
-Shielded twisted pair (STP): Contiene pares trenzados rodeados cada par de una cubierta protectora hecha de aluminio. Se utiliza en redes de ordenadores como Ethernet o Token Ring. Es más caro que la versión sin blindaje y su impedancia característica es de 150 ohmios.
-Foiled twisted pair (FTP): Contiene pares trenzados, todos rodeados de una cubierta protectora hecha de aluminio. Es similar al caso anterior pero este último es más utilizado en equipos inalámbricos en exteriores. su impedancia característica es de 120 ohmios.
-El cable de red SFTP (Shielded Foiled Twisted Pair) es un tipo de cable de par trenzado que cuenta con doble protección contra interferencias electromagnéticas (EMI) y de radiofrecuencia (RFI).
+- Unshielded twisted pair (UTP): Contiene pares trenzados sin blindar que se utilizan para diferentes tecnologías de redes locales. Es de bajo costo y de fácil uso, pero produce más errores que otros tipos de cable y tiene limitaciones para trabajar a grandes distancias sin regeneración de la señal. Su impedancia característica es de 100 ohmios.
+- Shielded twisted pair (STP): Contiene pares trenzados rodeados cada par de una cubierta protectora hecha de aluminio. Se utiliza en redes de ordenadores como Ethernet o Token Ring. Es más caro que la versión sin blindaje y su impedancia característica es de 150 ohmios.
+- Foiled twisted pair (FTP): Contiene pares trenzados, todos rodeados de una cubierta protectora hecha de aluminio. Es similar al caso anterior pero este último es más utilizado en equipos inalámbricos en exteriores. su impedancia característica es de 120 ohmios.
+- El cable de red SFTP (Shielded Foiled Twisted Pair) es un tipo de cable de par trenzado que cuenta con doble protección contra interferencias electromagnéticas (EMI) y de radiofrecuencia (RFI).
 
 ### Cable coaxial
 
