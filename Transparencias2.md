@@ -2,15 +2,18 @@
 
 ## Nivel 1: Capa física
 
-MEDIOS GUIADOS (Ondas electromagnéticas)
+MEDIOS GUIADOS (Ondas electromagnéticas):
+
   Cables metálicos (normalmente de cobre)
     • Coaxial
     • Pares trenzado (apantallados / no apantallados)
-  Cables de fibra óptica
+  Cables de fibra óptica:
+  
     • Multimodo MM
     • Monomodo mm
     
-MEDIOS NO GUIADOS (Ondas electromagnéticas)
+MEDIOS NO GUIADOS (Ondas electromagnéticas):
+
     • Enlaces vía radio
     • Enlaces vía satélite
 
