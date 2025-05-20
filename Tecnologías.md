@@ -247,5 +247,10 @@ El funcionamiento detallado es el siguiente:
 ![image](https://github.com/user-attachments/assets/22accd4a-a91f-4898-ba45-98dfed4db2a1)
 
 
-## 
+## Radio-enlaces
+
+[Radio enlaces - Qué son y para qué se utilizan - Revista Seguridad 360.pdf](https://github.com/user-attachments/files/20341593/Radio.enlaces.-.Que.son.y.para.que.se.utilizan.-.Revista.Seguridad.360.pdf)
+
+
+
 
