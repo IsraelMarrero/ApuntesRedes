@@ -84,6 +84,21 @@ A diferencia de otros métodos que utilizan paquetes de tamaño variable, ATM em
 
 Gracias a su capacidad para manejar diferentes tipos de tráfico simultáneamente, ATM es especialmente útil para aplicaciones multimedia, permitiendo velocidades de transmisión de hasta varios gigabits por segundo.
 
+## RDSI
+
+RDSI son las siglas de Red Digital de Servicios Integrados, un sistema de telecomunicaciones que permite la transmisión simultánea de voz, datos y otros servicios a través de líneas telefónicas. Facilita conexiones digitales extremo a extremo y ofrece una mayor calidad y velocidad que las comunicaciones analógicas. 
+
+En lugar de utilizar señales analógicas como las líneas telefónicas tradicionales, la RDSI transmite información en formato digital, lo que permite una mayor velocidad y calidad en las comunicaciones. 
+La RDSI ofrece una alternativa a las conexiones analógicas, proporcionando mayor capacidad de banda y permitiendo la transmisión simultánea de diferentes tipos de información, como llamadas telefónicas y datos. 
+
+### Ventajas de la RDSI:
+- Mayor velocidad y calidad: La transmisión digital permite una mayor velocidad y calidad en la transmisión de voz y datos. 
+- Transmisión simultánea de voz y datos: La RDSI permite que las comunicaciones de voz y datos se transmitan simultáneamente a través de la misma línea. 
+- Posibilidad de integrar diferentes servicios: La RDSI facilita la integración de diferentes servicios de comunicación, como llamadas de voz, acceso a internet, transmisión de datos y videoconferencias.
+
+### Desventajas de la RDSI:
+- Fin de la RDSI en España: En España, Telefónica ha anunciado el fin de la RDSI, por lo que las empresas que no hayan migrado a otras tecnologías de comunicación no podrán seguir utilizando este servicio. 
+- Necesidad de equipos específicos: Para utilizar la RDSI, se requiere de equipos específicos, como tarjetas de red RDSI y adaptadores de red. 
 
 ## Ethernet
 
