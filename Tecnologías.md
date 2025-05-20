@@ -46,6 +46,10 @@ Porque la velocidad de descarga es mayor que la de subida.
 ![image](https://github.com/user-attachments/assets/17ccda95-2131-4f5c-a440-96e92094e78d)
 
 
+## VDSL
+
+Es una evolución del ADSL, pues ofrece velocidades más altas. Sin embargo, la distancia de la conexión es más corta que la de ADSL.
+
 ## GPON
 
 A finales de los años 90 se empezó a desarrollar la tecnología PON (Passive Optical Network) y dio lugar a varios estándares como APON, BPON, EPON y GPON. 
@@ -205,4 +209,41 @@ La conexión por microondas también es una opción popular para las redes de á
 
 ## SONET/SDH
 
+SONET (Synchronous Optical NETwork) y SDH (Synchronous Digital Hierarchy) son tecnologías estándar para la transmisión digital de alta velocidad sobre fibra óptica, 
+utilizadas especialmente en redes troncales de telecomunicaciones para transportar voz, datos y vídeo. SONET/SDH es como se llama el sistema de transmisión como tal.
+
+El protocolo que utiliza SONET/SDH es PPP (Point to Point Protocol). Surge por la necesidad de disponer de un sistema estandarizado para la interconexión de redes troncales entre operadoras.
+SONET es el estándar americano, SDH es el estándar internacional. Lo llamamos SONET/SDH porque son bastante compatibles. Se desarrolló en paralelo con ATM, con el objetivo de que ATM utilizara SONET/SDH.
+La realidad es que ATM cayó en desuso rápidamente y SONET/SDH se sigue utilizando.
+
+Objetivos principales
+- Unificar velocidades de transmisión a nivel internacional.
+- Aprovechar mejor la capacidad de la fibra óptica.
+- Superar las limitaciones de velocidad de PDH (hasta 140 Mbps).
+- Facilitar la gestión de red, sincronización y recuperación ante fallos.
+- Son base de muchas redes de telecomunicaciones, aunque hoy han sido reemplazadas en parte por tecnologías IP y Ethernet sobre fibra
+
+## Token-Ring
+
+Token Ring es una arquitectura de red desarrollada por IBM en los años 1970 con topología lógica en anillo y técnica de acceso de paso de testigo, usando una trama de 3 bytes llamado testigo (en inglés token) que viaja alrededor del anillo. Token Ring está en desuso por la popularización de Ethernet; actualmente no es empleada en diseños de redes.
+
+El funcionamiento detallado es el siguiente:
+1. El token circula: un token (una trama de datos específica) se transmite continuamente por el anillo lógico. 
+2. El nodo espera el token: Si un nodo quiere enviar datos, debe esperar a que el token esté disponible. 
+3. El nodo transmite los datos: Una vez que un nodo recibe el token, puede adjuntar sus datos al token y transmitir la información al siguiente nodo en el anillo. 
+4. El nodo reenvía el token: Después de enviar sus datos, el nodo libera el token, permitiendo que el siguiente nodo lo utilice. 
+5. El nodo destino recibe los datos: El nodo de destino copia los datos del token y confirma la recepción correcta. 
+
+### Ventajas
+- Evita colisiones: El paso del token asegura que solo un nodo pueda transmitir a la vez, evitando conflictos en la red.
+- Acceso equitativo: El sistema de paso de token asegura que cada nodo tenga la oportunidad de enviar datos en un orden predefinido.
+  
+### Desventajas 
+- Enlentecimiento: En redes con muchos nodos, el tiempo que tarda en llegar el token a un nodo puede ser considerablemente largo, lo que puede afectar la eficiencia de la red. 
+- Evolución de la tecnología: Ethernet ha superado al Token Ring debido a su mayor velocidad y costo más bajo.
+
+![image](https://github.com/user-attachments/assets/22accd4a-a91f-4898-ba45-98dfed4db2a1)
+
+
+## 
 
