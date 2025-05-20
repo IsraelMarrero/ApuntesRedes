@@ -50,14 +50,14 @@ Características:
 - Se usa en radio, televisión, y telefonía analógica.
 
 
-### SONET y SDH
+### SONET/SDH
 
 SONET (Synchronous Optical NETwork) y SDH (Synchronous Digital Hierarchy) son tecnologías estándar para la transmisión digital de alta velocidad sobre fibra óptica, 
-utilizadas especialmente en redes troncales de telecomunicaciones para transportar voz, datos y vídeo.
+utilizadas especialmente en redes troncales de telecomunicaciones para transportar voz, datos y vídeo. SONET/SDH es como se llama el sistema de transmisión como tal.
 
-- SONET: Estándar americano (ANSI), propuesto en 1987.
-- SDH: Estándar internacional (ITU-T), desarrollado para ser compatible con SONET y sustituir a la jerarquía PDH (Plesiochronous Digital Hierarchy).
-- Ambos sistemas son compatibles y jerárquicos, basados en tramas repetitivas transmitidas a intervalos fijos.
+El protocolo que utiliza SONET/SDH es PPP (Point to Point Protocol). Surge por la necesidad de disponer de un sistema estandarizado para la interconexión de redes troncales entre operadoras.
+SONET es el estándar americano, SDH es el estándar internacional. Lo llamamos SONET/SDH porque son bastante compatibles. Se desarrolló en paralelo con ATM, con el objetivo de que ATM utilizara SONET/SDH.
+La realidad es que ATM cayó en desuso rápidamente y SONET/SDH se sigue utilizando.
 
 Objetivos principales
 - Unificar velocidades de transmisión a nivel internacional.
