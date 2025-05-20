@@ -258,11 +258,31 @@ El WiFi es una tecnología que permite la conexión inalámbrica a internet y a 
 Las redes wifi funcionan mediante la transmisión de ondas de radio en diversas frecuencias para brindar conectividad inalámbrica a redes y a internet a diversas velocidades. Típicamente se les agrupa en rangos de frecuencia de 2.4 GHz, 5 GHz y 6 GHz. En general, mientras mayor es la frecuencia, mayores son las velocidades. Sin embargo, a mayor frecuencia, tendrán menor alcance.
 
 El wifi, da lugar a distintos tipos de área:
-- WLAN:
-- WMAN:
-- WPAN:
-- WWAN:
+- WLAN: conecta dispositivos cercanos en un área local
+- WMAN: conecta dispositivos en un área metropolitana
+- WPAN: conecta dispositivos cercanos (personal)
+- WWAN: conectar a Internet a través de redes de telefonía celular, como 3G, 4G LTE o 5G.
 
+## WiMax
+
+"Worldwide Interoperability for Microwave Access" (interoperabilidad mundial para acceso por microondas), es una tecnología de comunicación inalámbrica que permite la conexión a internet y otras redes de datos, especialmente en zonas rurales o donde no hay cobertura de fibra óptica o ADSL. Funciona a través de ondas de radio en las frecuencias de 2,5 a 5,8 GHz, y puede llegar a tener una cobertura de hasta 70 km. 
+
+
+### ¿Cómo funciona?
+1. Antena WiMAX: Se instala una antena en el hogar o negocio, orientada hacia el repetidor WiMAX más cercano.
+2. Repetidor WiMAX: El repetidor, ubicado en una zona estratégica, emite la señal hacia la antena WiMAX.
+3. Conexión a la red: La antena se conecta a un router, y este a su vez a los dispositivos que se desean conectar a internet.
+
+#### Ventajas de WiMAX:
+- Alternativa a fibra y ADSL: Es una buena opción en zonas donde no llega la fibra óptica o el ADSL. 
+- Cobertura amplia: Puede llegar a cubrir áreas de hasta 70 km, lo que la hace ideal para zonas rurales. 
+- Velocidades decentes: Ofrece velocidades que pueden ser suficientes para navegar, ver videos y realizar otras tareas online. 
+- Fácil de instalar: La instalación de la antena y el router es relativamente sencilla.
+
+#### Desventajas de WiMAX:
+- No tan rápido como la fibra: No llega a las velocidades que puede ofrecer la fibra óptica. 
+- Latencia: La latencia puede ser mayor que en la fibra óptica, lo que puede afectar a juegos online o aplicaciones que requieren baja latencia. 
+- Dependencia de la distancia: La calidad de la conexión puede verse afectada por la distancia a la que se encuentra la antena del repetidor. 
 
 
 
