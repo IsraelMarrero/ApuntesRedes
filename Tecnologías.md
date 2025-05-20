@@ -70,6 +70,8 @@ GPON es un componente clave de la red FTTH que permite la transmisión de datos 
 
 ## ATM
 
+https://www.youtube.com/watch?v=mTjtE7Ejgq0
+
 ATM (Modo de Transferencia Asíncrono) es una tecnología de red de alta velocidad diseñada para transmitir voz, video y datos en tiempo real a través de una misma línea, optimizando el rendimiento en entornos de alto tráfico. Una de sus principales ventajas es que no es necesario esperar a completar grandes bloques de datos para iniciar la transmisión, lo que reduce la latencia y mejora la eficiencia.
 
 A diferencia de otros métodos que utilizan paquetes de tamaño variable, ATM emplea celdas de tamaño fijo de 53 bytes, de los cuales 5 bytes corresponden a la cabecera y 48 a los datos. Esta estructura uniforme simplifica el procesamiento y permite una transmisión más rápida y predecible. La información se envía de forma asíncrona, es decir, se transmite inmediatamente cuando hay datos disponibles, sin necesidad de intervalos fijos.
@@ -121,7 +123,7 @@ basadas en circuitos y las basadas en paquetes. Puede ser utilizado para transpo
 
 MPLS reemplazó a Frame Relay y ATM como la tecnología tecnología preferida preferida para llevar datos de alta velocidad velocidad y voz digital digital en una sola conexión. 
 MPLS no solo proporciona proporciona una mayor fiabilidad fiabilidad y un mayor rendimiento, sino que a menudo puede reducir reducir los costes de transporte transporte mediante mediante una
-mayor eficiencia ciencia de la red.Su capacidad para dar prioridad a los paquetes que transportan tráfico de voz hace que sea la solución perfecta para llevar las llamadas de voz sobre IP o VoIP.
+mayor eficiencia de la red. Su capacidad para dar prioridad a los paquetes que transportan tráfico de voz hace que sea la solución perfecta para llevar las llamadas de voz sobre IP o VoIP.
 
 La tecnología MPLS es una solución para la conmutación multiprotocolo:
 - Introduce una estructura orientada a la conexión en redes que originariamente no estaban orientadas a la conexión (redes IP).
