@@ -249,7 +249,21 @@ El funcionamiento detallado es el siguiente:
 
 ## Radio-enlaces
 
-[Radio enlaces - Qué son y para qué se utilizan - Revista Seguridad 360.pdf](https://github.com/user-attachments/files/20341593/Radio.enlaces.-.Que.son.y.para.que.se.utilizan.-.Revista.Seguridad.360.pdf)
+Documento: 5. Tecnologías inalámbricas: Radio enlaces
+
+## Wifi
+
+El WiFi es una tecnología que permite la conexión inalámbrica a internet y a redes locales a través de ondas de radio. Un router, conectado a tu conexión de internet, crea una red local inalámbrica que permite a dispositivos como smartphones, tablets y computadoras conectarse y acceder a internet sin necesidad de cables. 
+
+Las redes wifi funcionan mediante la transmisión de ondas de radio en diversas frecuencias para brindar conectividad inalámbrica a redes y a internet a diversas velocidades. Típicamente se les agrupa en rangos de frecuencia de 2.4 GHz, 5 GHz y 6 GHz. En general, mientras mayor es la frecuencia, mayores son las velocidades. Sin embargo, a mayor frecuencia, tendrán menor alcance.
+
+El wifi, da lugar a distintos tipos de área:
+- WLAN:
+- WMAN:
+- WPAN:
+- WWAN:
+
+
 
 
 
