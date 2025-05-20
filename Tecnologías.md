@@ -118,8 +118,8 @@ LTE, que significa "Long Term Evolution", es una tecnología de red de telecomun
 
 ## MPLS
 
-Es un mecanismo de transporte de datos estándar que opera entre la capa de enlace de datos y la capa de red del modelo OSI. Fue diseñado para unificar el servicio de transporte de datos para las redes
-basadas en circuitos y las basadas en paquetes. Puede ser utilizado para transportar diferentes tipos de tráfico, incluyendo tráfico de voz y de paquetes IP.
+El Multi Protocol Label Switching es una tecnología de conmutación de paquetes que usa label en vez de IP para el envío del tráfico, y opera entre la capa de enlace de datos y la capa de red del modelo OSI. 
+Fue diseñado para unificar el servicio de transporte de datos para las redes basadas en circuitos y las basadas en paquetes. Puede ser utilizado para transportar diferentes tipos de tráfico, incluyendo tráfico de voz y de paquetes IP.
 
 MPLS reemplazó a Frame Relay y ATM como la tecnología tecnología preferida preferida para llevar datos de alta velocidad velocidad y voz digital digital en una sola conexión. 
 MPLS no solo proporciona proporciona una mayor fiabilidad fiabilidad y un mayor rendimiento, sino que a menudo puede reducir reducir los costes de transporte transporte mediante mediante una
@@ -130,6 +130,7 @@ La tecnología MPLS es una solución para la conmutación multiprotocolo:
 - Integra con continuidad a la capa 2 (enlace de datos) y capa 3 (red) del modelo OSI, combinando las funciones de control de enrutamiento con efectividad en la conmutación.
 - Optimiza el enrutamiento, reduciendo notablemente la complejidad de los algoritmos.
 - Mantiene un estado de la comunicación entre dos nodos.
-- Permite introducir QoS en redes IP.
 - Optimiza el establecimiento de túneles en las VPN.
+
+## 
 
