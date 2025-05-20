@@ -49,6 +49,8 @@ Porque la velocidad de descarga es mayor que la de subida.
 ## VDSL
 
 Es una evolución del ADSL, pues ofrece velocidades más altas. Sin embargo, la distancia de la conexión es más corta que la de ADSL.
+Si lo añadiéramos al gráfico de arriba, veríamos que ofrece hasta 35 Mbps de bajada, pero que pierde sus bondades a apenas 600 metros de la central.
+
 
 ## GPON
 
