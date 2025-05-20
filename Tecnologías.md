@@ -286,5 +286,12 @@ El wifi, da lugar a distintos tipos de área:
 
 
 
+## Módems acústicos
+
+Un  módem acústico  se utiliza para transmitir datos bajo el agua, de forma similar a como se utilizan los módems telefónicos para transmitir datos por líneas telefónicas. Un módem acústico convierte datos digitales en señales de sonido subacuáticas especiales. Estas señales son recibidas por un segundo módem acústico y convertidas de nuevo en datos digitales.
+
+
+
+
 
 
