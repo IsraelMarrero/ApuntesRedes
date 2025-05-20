@@ -132,5 +132,77 @@ La tecnología MPLS es una solución para la conmutación multiprotocolo:
 - Mantiene un estado de la comunicación entre dos nodos.
 - Optimiza el establecimiento de túneles en las VPN.
 
-## 
+## Microondas
+
+La conexión por microondas es una forma de transmisión de datos que utiliza ondas electromagnéticas en la banda de frecuencias de los microondas para transmitir información. Las ondas electromagnéticas viajan por el aire o por un enlace de línea de visión directa entre dos puntos.
+
+La conexión por microondas también es una opción popular para las redes de área amplia (WAN) y las redes metropolitanas (MAN), esta forma de transmisión es altamente confiable y ofrece velocidades de transmisión significativamente más rápidas que la transmisión por satélite y los enlaces terrestres. Esto la hace ideal para aplicaciones que requieren transmisión de datos en tiempo real, como la transmisión de video y audio en directo.
+
+### Características:
+- **Línea de vista (LoS)**: Requiere que los transmisores y receptores estén alineados sin obstáculos.
+- **Alcance limitado**: Las estaciones repetidoras suelen estar separadas por **30-50 km** debido a la curvatura de la Tierra.
+- **Alta capacidad**: Permite transmitir voz, video y datos a alta velocidad.
+- **Usado en**: Enlaces troncales entre estaciones base, redes metropolitanas, comunicaciones punto a punto, et
+
+### ✅ Ventajas
+
+- Rápida implementación.
+- No requiere tendido de cables.
+- Alta velocidad en distancias medias.
+
+### ⚠️ Desventajas
+
+- Afectada por condiciones atmosféricas (lluvia, niebla).
+- Requiere alineación precisa.
+
+## Satélites
+
+- Un satélite funciona como un **repetidor de microondas en el cielo**, captando señales desde la Tierra (**enlace ascendente**) y retransmitiéndolas a otra frecuencia (**enlace descendente**) para evitar interferencias.
+- Cada canal se gestiona con un **transpondedor** (transponder), que capta, amplifica y reenvía las señales.
+- **Ancho de banda por canal**: 27 a 72 MHz.
+- **Tasa de eficiencia** típica: ~1 bit/s por Hz (ej: 50 MHz → 50 Mbit/s).
+
+### 🧩 Estructura Típica del Satélite
+
+- Un satélite puede tener:
+  - Hasta **500 MHz** de ancho de banda total.
+  - Dividido en **12 transpondedores** (~36 MHz cada uno).
+  - Cada transpondedor puede manejar:  
+    - 500 Mbit/s de datos, o  
+    - ~800 canales de voz digitalizada (64 kbit/s).
+
+### 📡 VSAT (Very Small Aperture Terminal)
+
+- Estaciones de bajo costo
+- No se comunican directamente entre sí porque no tienen potencia suficiente; usan una **estación hub** en tierra a modo de repetidor.
+- Comunicación típica:
+  - VSAT → satélite → hub → satélite → VSAT.
+
+### 📡 Broadcast y Seguridad
+
+- Transmisión satelital es **broadcast por naturaleza**: Tiene el mismo coste enviar una señal a una estación que enviarla a todas las estaciones que se encuentren dentro de la huella del satélite.
+- Ideal para **TV o servicios de difusión**.
+- Requiere **cifrado** para garantizar seguridad.
+
+### 🌍 Ventajas
+
+- Cobertura global (dentro de la huella del satélite).
+- Costo **independiente de la distancia**.
+- No necesita apenas infraestructura terrestre (VSAT).
+
+### ⚠️ Desventajas
+
+- Alta latencia: Los satélites están a ~36.000 km de altura, e introducen **retardos de 250–300 ms**. En conexiones VSAT–VSAT, el retardo puede duplicarse (~500–600 ms).
+- Coste inicial de satélites y estaciones.
+- Seguridad (por naturaleza es broadcast).
+
+### 📌 Aplicaciones
+
+- TV y radio satelital.
+- Internet satelital (Starlink, HughesNet).
+- Comunicaciones corporativas remotas.
+- Redes VSAT para banca, petróleo, minería, defensa.
+
+## SONET/SDH
+
 
