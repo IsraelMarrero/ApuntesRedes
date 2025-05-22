@@ -35,6 +35,11 @@ La información se divide en unidades más pequeñas llamadas paquetes. Cada paq
 Los datos en el encabezado son utilizados por el hardware de red para dirigir el paquete a su destino, donde la carga útil es extraída y utilizada por el software de la aplicación. 
 Esta forma de conmutación surgió como respuesta a las deficiencias de la conmutación de mensajes en las redes.
 
+#### Tipos
+- Técnica de datagrama: Cada paquete se trata de manera independiente, el emisor los enumera, añade información de control en una cabecera y lo envía. Los paquetes siguen caminos diferentes. Es probable que se reciban
+en orden diferente y haya que reordenarlos, o que un paquete se pierda y por tanto el receptor solicite su reenvío.
+- Técnica circuito virtual: Como en conmutación de circuitos, el camino se determina al iniciar la conexión, pero no se reservan los recursos como tal. Los paquetes se van enviando por dicho camino siempre que esté disponible, y al termiinar, los recursos del circuito virtual se liberan.
+
 Ejemplos:
 - X.25: Diseñado para redes públicas en los años 70, ofrecía una transmisión fiable sobre enlaces lentos y propensos a errores.
 - Frame Relay: Surgió como una evolución de X.25, optimizada para redes más modernas y fiables. Sin control de errores en la red (lo realizan los extremos).
