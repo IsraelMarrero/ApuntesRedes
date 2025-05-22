@@ -24,6 +24,9 @@
 - Foiled twisted pair (FTP): Contiene pares trenzados, todos rodeados de una cubierta protectora hecha de aluminio. Es similar al caso anterior pero este último es más utilizado en equipos inalámbricos en exteriores. su impedancia característica es de 120 ohmios.
 - El cable de red SFTP (Shielded Foiled Twisted Pair) es un tipo de cable de par trenzado que cuenta con doble protección contra interferencias electromagnéticas (EMI) y de radiofrecuencia (RFI).
 
+![image](https://github.com/user-attachments/assets/f75b0909-cdcc-496f-9ca8-2f2368224cb3)
+
+
 ### Cable coaxial
 
 El cable coaxial es un cable utilizado para transportar señales eléctricas de alta frecuencia que posee dos conductores concéntricos, uno central, llamado núcleo, encargado de llevar información, y uno exterior, de aspecto tubular, llamado malla, blindaje o trenza, que sirve como referencia de tierra y retorno de las corrientes. 
