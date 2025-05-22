@@ -159,7 +159,7 @@ Esta capa proporciona la interfaz directa entre el software de aplicación y la 
 
 ---
 
-## 🧠 Resumen Visual (de abajo hacia arriba)
+## Resumen
 
 | Nivel | Capa             | Función principal                         |
 |-------|------------------|-------------------------------------------|
@@ -173,7 +173,7 @@ Esta capa proporciona la interfaz directa entre el software de aplicación y la 
 
 ---
 
-## 🛠️ Nota adicional:
+## 🛠️ Nota:
 - En la práctica, los protocolos no siempre siguen estrictamente el modelo OSI. El modelo TCP/IP, más utilizado, combina varias capas.
 
 ---
