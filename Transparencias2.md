@@ -55,18 +55,14 @@ Es proporcional a:
 
 ## Nivel 2: Capa de Enlace de Datos
 
-Se encarga de **establecer una conexión fiable entre dos nodos directamente conectados**. Proporciona detección y en algunos casos corrección de errores de transmisión.
+Se encarga de conectarte a la red local, que es digamos la más cercana a tu entorno y a través de la cual podrás conectarte posteriormente a la nube. Se encarga de agrupar y organizar esos bits de la capa uno en tramas.
+Además, **establece una conexión fiable entre dos nodos directamente conectados**. Proporciona detección y en algunos casos corrección de errores de transmisión. Trabaja a partir de los switches, bridges, tarjetas de red...
 
 ### Funciones:
 - Control de acceso al medio (MAC).
 - Detección y corrección de errores.
 - Control de flujo de datos.
 - Encapsula los datos en **tramas**.
-
-### Dispositivos:
-- Switches.
-- Puentes (bridges).
-- Tarjetas de red (NIC).
 
 ### Protocolos comunes:
 - Ethernet (IEEE 802.3)
@@ -97,7 +93,7 @@ Responsable del **direccionamiento lógico** y el **encaminamiento de paquetes**
 
 ## Nivel 4: Capa de Transporte
 
-Proporciona **comunicación extremo a extremo** y asegura que los datos lleguen **completos, en orden y sin errores**.
+Proporciona **comunicación extremo a extremo** y asegura que los datos lleguen **completos, en orden y sin errores**. Si es necesario, los paquetes se dividen en más pequeños para su correcta transmisión.
 
 ### Funciones:
 - Control de flujo.
@@ -113,7 +109,8 @@ Proporciona **comunicación extremo a extremo** y asegura que los datos lleguen 
 
 ## Nivel 5: Capa de Sesión
 
-Gestiona la **comunicación entre aplicaciones**, estableciendo, controlando y finalizando sesiones.
+Se encarga de establecer, mantener y finalizar sesiones de comunicación entre aplicaciones. Una “sesión” es como una conversación estructurada entre dos dispositivos/aplicaciones: 
+esta capa asegura que dicha conversación pueda empezar, mantenerse en orden y cerrarse correctamente. Controla quién habla y cuándo, y puede encargarse de reanudar sesiones interrumpidas.
 
 ### Funciones:
 - Establecimiento y mantenimiento de sesiones.
@@ -128,7 +125,7 @@ Gestiona la **comunicación entre aplicaciones**, estableciendo, controlando y f
 
 ## Nivel 6: Capa de Presentación
 
-Se encarga de la **traducción, cifrado y compresión de los datos**, actuando como intérprete entre la aplicación y la red.
+Se encarga de la **traducción, cifrado y compresión de los datos**, haciendo de "intérprete" entre distintos sistemas.
 
 ### Funciones:
 - Conversión de formatos de datos (EBCDIC ↔ ASCII).
@@ -144,7 +141,8 @@ Se encarga de la **traducción, cifrado y compresión de los datos**, actuando c
 
 ## Nivel 7: Capa de Aplicación
 
-Proporciona servicios de red directamente a las **aplicaciones del usuario final**.
+Es la capa más cercana al usuario final. Aquí es donde residen los programas o servicios con los que interactuamos directamente, como: navegadores web, clientes de correo electrónico, servicios FTP, DNS, HTTP, etc. 
+Esta capa proporciona la interfaz directa entre el software de aplicación y la red, permitiendo que los datos que quiere enviar o recibir el usuario lleguen de manera adecuada a través de todas las capas anteriores.
 
 ### Funciones:
 - Interfaz directa con el software del usuario.
