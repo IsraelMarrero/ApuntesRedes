@@ -88,6 +88,8 @@ Gracias a su capacidad para manejar diferentes tipos de tráfico simultáneament
 
 RDSI son las siglas de Red Digital de Servicios Integrados, un sistema de telecomunicaciones que permite la transmisión simultánea de voz, datos y otros servicios a través de líneas telefónicas. Facilita conexiones digitales extremo a extremo y ofrece una mayor calidad y velocidad que las comunicaciones analógicas. 
 
+A diferencia de ATM, RDSI utiliza un modo de transmisión síncrona, donde se asigna un canal fijo durante todo el tiempo que dura la comunicación independientemente de la cantidad de información enviada por el canal.
+
 En lugar de utilizar señales analógicas como las líneas telefónicas tradicionales, la RDSI transmite información en formato digital, lo que permite una mayor velocidad y calidad en las comunicaciones. 
 La RDSI ofrece una alternativa a las conexiones analógicas, proporcionando mayor capacidad de banda y permitiendo la transmisión simultánea de diferentes tipos de información, como llamadas telefónicas y datos. 
 
