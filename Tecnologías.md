@@ -84,6 +84,15 @@ A diferencia de otros métodos que utilizan paquetes de tamaño variable, ATM em
 
 Gracias a su capacidad para manejar diferentes tipos de tráfico simultáneamente, ATM es especialmente útil para aplicaciones multimedia, permitiendo velocidades de transmisión de hasta varios gigabits por segundo.
 
+### Características
+
+Las principales características de ATM son las siguientes:a
+- Anchura de banda flexible y escalable, y altas velocidades de transferencia. Utiliza multiplexación estadística y conmutación de paquetes (celdas), de longitud fija de 53 bytes.
+- Tecnología conmutada y orientada a conexión. El modo de operación es mediante circuitos virtuales.
+- Minimiza el procesamiento de las celdas dentro de la red.
+- Más disponibilidad de la red. Los conmutadores ATM son muy rápidos porque la conmutación se efectúa con dispositivos físicos (hardware) y no mediante programas (software). El procesamiento y retardo en cada conmutador es mínimo, por lo cual aumenta la velocidad de transferencia
+
+
 ## RDSI
 
 RDSI son las siglas de Red Digital de Servicios Integrados, un sistema de telecomunicaciones que permite la transmisión simultánea de voz, datos y otros servicios a través de líneas telefónicas. Facilita conexiones digitales extremo a extremo y ofrece una mayor calidad y velocidad que las comunicaciones analógicas. 
